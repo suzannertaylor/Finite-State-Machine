@@ -3,11 +3,25 @@ The automata will give you the remainder when dividing a number by 3. This is a 
 
 ## Requirements
 Python 3.x
+Docker (if you want to use the docker file)
 
 ## Run
+If you have python installed
+
 On the command line type
 
- python statemachine.py
+  python .\statemachine.py
+
+---
+If you have Docker
+
+Build the docker image
+
+  docker build -t python-state-machine-app .
+
+Run the app
+
+  docker run -it --rm --name running-state-machine-app python-state-machine-app
 
  ## Example
 
